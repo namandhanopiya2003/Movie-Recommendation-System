@@ -1,7 +1,9 @@
+# Set the path for R packages to be loaded
 .libPaths("D:/Movie_Recommendation_System/Rlibs")
 
 library(shiny)
 
+# Define UI of app
 ui <- fluidPage(
   titlePanel("Movie Recommendation Dashboard"),
   sidebarLayout(
@@ -15,8 +17,10 @@ ui <- fluidPage(
 )
 
 server <- function(input, output) {
+  # Load recommendations from CSV
   recs <- read.csv("output/recommendations.csv")
-  
+
+  # Show recommendations for the selected user
   output$recommendations <- renderTable({
     recs[recs$user_id == input$user, ]
   })
