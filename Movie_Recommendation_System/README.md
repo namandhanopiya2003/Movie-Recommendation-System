@@ -26,23 +26,23 @@
 
 ## 📁 PROJECT FOLDER STRUCTURE ==>
 
-MOVIE_RECOMMENDATION_SYSTEM/
-├── data/
-│   └── ml-100k/                           # MovieLens dataset files (u.data, u.item, u.user)
-│
-├── R/
-│   ├── 01_data_loading.R               
-│   ├── 02_eda.R                           
-│   ├── 03_model_building.R                
-│   ├── 04_model_evaluation.R              
-│   ├── 05_generate_recommendations.R      
-│   └── 06_shiny_dashboard.R
-│
-├── output/
-│   └── recommendations.csv                # Output: Top recommended movies per user
-│
-├── Rlibs/                                 # Custom R library path (optional)
-│
+MOVIE_RECOMMENDATION_SYSTEM/<br>
+├── data/<br>
+│   └── ml-100k/                           # MovieLens dataset files (u.data, u.item, u.user)<br>
+│<br>
+├── R/<br>
+│   ├── 01_data_loading.R<br>
+│   ├── 02_eda.R<br>
+│   ├── 03_model_building.R<br>
+│   ├── 04_model_evaluation.R<br>
+│   ├── 05_generate_recommendations.R<br>
+│   └── 06_shiny_dashboard.R<br>
+│<br>
+├── output/<br>
+│   └── recommendations.csv                # Output: Top recommended movies per user<br>
+│<br>
+├── Rlibs/                                 # Custom R library path (optional)<br>
+│<br>
 └── run_all.R                              # Main script to run the full pipeline
 
 ---
@@ -148,3 +148,4 @@ For questions or feedback, feel free to reach out!
 
 
 ---
+
