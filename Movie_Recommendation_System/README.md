@@ -135,9 +135,9 @@ Rscript run_all.R
 
 ## ✨ SAMPLE OUTPUT ==>
 
-🎬 Movie Recommendation Engine: ACTIVE
-👤 User: "User_123"
-🍿 Recommended Movie: Inception (Confidence Score: 92.5%)
+🎬 Movie Recommendation Engine: ACTIVE<br>
+👤 User: "User_123"<br>
+🍿 Recommended Movie: Inception (Confidence Score: 92.5%)<br>
 ✅ Status: Recommendation Delivered Successfull
 
 ---
@@ -145,5 +145,6 @@ Rscript run_all.R
 ## 📬 CONTACT ==>
 
 For questions or feedback, feel free to reach out!
+
 
 ---
