@@ -103,36 +103,6 @@ Rscript run_all.R
 
 ---
 
-## ✅ IMPROVEMENTS MADE ==>
-
-- Added model evaluation using cross-validation for more reliable performance metrics.
-
-- Modularized the code into separate scripts for data loading, exploratory analysis, model building, evaluation, and recommendation generation.
-
-- Implemented user-based collaborative filtering with optimized similarity computations.
-
-- Enabled saving and loading of recommendations as CSV files for easy sharing and analysis.
-
-- Developed an interactive Shiny dashboard for real-time exploration of user profiles, movie popularity, and personalized recommendations.
-
----
-
-## 📌 To Do / Future Enhancements ==>
-
-- Develop a user-friendly GUI interface to manage user profiles, movie ratings, and recommendation settings.
-
-- Incorporate metadata tracking such as timestamp of user interactions and contextual data for better recommendation personalization.
-
-- Support integration with multiple data sources or streaming platforms to expand movie database coverage.
-
-- Implement real-time notifications or alerts for trending movies and personalized suggestions via email or app notifications.
-
-- Deploy the recommendation system as a web application using frameworks like Shiny, Flask, or Django for wider accessibility.
-
-- Add detailed analytics and logging of user behavior and recommendation performance for continuous improvement.
-
----
-
 ## ✨ SAMPLE OUTPUT ==>
 
 🎬 Movie Recommendation Engine: ACTIVE<br>
@@ -146,6 +116,4 @@ Rscript run_all.R
 
 For questions or feedback, feel free to reach out!
 
-
 ---
-
